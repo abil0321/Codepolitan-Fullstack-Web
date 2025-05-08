@@ -1,0 +1,36 @@
+10:48:26.620 orang
+10:48:26.640
+Object { nama: "aim", tanggal: 16, alamat: "Cirebon" }
+
+10:50:40.797 orang["nama"] = 'Febrianto'
+10:50:40.813 "Febrianto"
+10:50:43.911 orang
+10:50:43.924
+Object { nama: "Febrianto", tanggal: 16, alamat: "Cirebon" }
+
+10:50:57.175 orang.tanggal = 10
+10:50:57.187 10
+10:51:02.047 orang
+10:51:02.057
+Object { nama: "Febrianto", tanggal: 10, alamat: "Cirebon" }
+
+10:51:18.560 let alamat = 'alamat'
+10:51:18.578 undefined
+10:51:58.042 orang[alamat] = 'Bogor'
+10:51:58.058 "Bogor"
+10:52:01.290 orang
+10:52:01.304
+Object { nama: "Febrianto", tanggal: 10, alamat: "Bogor" }
+
+10:52:28.146 orang.gender = 'Laki-laki'
+10:52:28.160 "Laki-laki"
+10:52:47.244 orang
+10:52:47.264
+Object { nama: "Febrianto", tanggal: 10, alamat: "Bogor", gender: "Laki-laki" }
+
+10:53:00.579 orang['status'] = 'belum menikah'
+10:53:00.594 "belum menikah"
+10:53:04.163 orang
+10:53:04.178
+Object { nama: "Febrianto", tanggal: 10, alamat: "Bogor", gender: "Laki-laki", status: "belum menikah" }
+

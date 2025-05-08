@@ -1,0 +1,19 @@
+20:24:13.029 console
+20:24:13.044
+Console { assert: assert(), clear: clear(), count: count(), countReset: countReset(), debug: debug(), error: error(), info: info(), log: log(), table: table(), trace: trace(), … }
+
+20:27:02.971 console.log('hello world')
+20:27:02.979 hello world debugger eval code:1:9
+20:27:02.980 undefined
+20:27:34.676 console.warn('Be carefull!')
+20:27:34.686 Be carefull! debugger eval code:1:9
+20:27:34.686 undefined
+20:27:59.717 console.error('This is error message!')
+20:27:59.725 This is error message! debugger eval code:1:9
+20:27:59.726 undefined
+20:28:27.390 alert()
+20:28:29.987 undefined
+20:28:50.696 alert('this is error message')
+20:28:52.972 undefined
+20:29:25.609 prompt('plis input your number: ')
+20:29:29.559 "123123"

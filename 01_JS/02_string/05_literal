@@ -1,0 +1,12 @@
+16:47:12.852 let greeting = 'hello world!'
+16:47:12.863 undefined
+16:47:27.453 let name = 'hakim'
+16:47:27.469 undefined
+16:47:38.004 let age = 20
+16:47:38.014 undefined
+16:47:48.500 let status = 'single'
+16:47:48.509 undefined
+16:50:14.626 greeting.replace('world', 'there') + ' ' + 'Nama saya ' + name  + ' ' + 'umur saya ' + age + '. status saya ' + status
+16:50:14.639 "hello there! Nama saya hakim umur saya 20. status saya single"
+16:51:54.798 `${greeting.replace('world', 'there')} Nama saya ${name} umur saya ${age}. Status saya ${status}`
+16:51:54.813 "hello there! Nama saya hakim umur saya 20. Status saya single"

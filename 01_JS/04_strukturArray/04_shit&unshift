@@ -1,0 +1,24 @@
+18:53:53.742 let student = ['bobby', 'charlie', 'dony', 'eddie']
+18:53:53.764 undefined
+18:53:59.464 student
+18:53:59.475
+Array(4) [ "bobby", "charlie", "dony", "eddie" ]
+
+18:54:20.479 student.unshift('Aim')
+18:54:20.499 5
+18:54:23.543 student
+18:54:23.553
+Array(5) [ "Aim", "bobby", "charlie", "dony", "eddie" ]
+
+18:54:28.464 student.unshift(1)
+18:54:28.479 6
+18:54:30.823 student
+18:54:30.839
+Array(6) [ 1, "Aim", "bobby", "charlie", "dony", "eddie" ]
+
+18:54:49.865 student.shift()
+18:54:49.877 1
+18:54:52.241 student
+18:54:52.256
+Array(5) [ "Aim", "bobby", "charlie", "dony", "eddie" ]
+

@@ -1,0 +1,40 @@
+16:11:45.860 let nama = "hakim"
+16:11:45.874 undefined
+16:12:02.374 nama[0]
+16:12:02.383 "h"
+16:12:17.804 nama[2]
+16:12:17.812 "k"
+16:12:36.580 nama.length
+16:12:36.594 5
+16:12:45.572 nama[9]
+16:12:45.584 undefined
+16:14:09.776 nama = nama + " meliala"
+16:14:09.789 "hakim meliala"
+16:14:20.552 nama.length
+16:14:20.562 13
+16:14:31.753 nama[6]
+16:14:31.766 "m"
+16:14:38.193 nama[5]
+16:14:38.205 " "
+16:15:43.522 let namaDepan = "hakim"
+16:15:43.532 undefined
+16:16:00.827 let namaBelakang = "meliala"
+16:16:00.836 undefined
+16:16:17.860 let namaLengkap = namaDepan
+16:16:17.869 undefined
+16:17:02.989 let namaLengkap = ''
+16:17:03.003 Uncaught SyntaxError: redeclaration of let namaLengkap
+    <anonymous> debugger eval code:1
+debugger eval code:1:1
+16:17:13.942 namaLengkap = namaDepan + " " + namaBelakang
+16:17:13.955 "hakim meliala"
+16:17:19.366 namaLengkap
+16:17:19.379 "hakim meliala"
+16:17:30.599 namaLengkap.length
+16:17:30.612 13
+16:18:17.577 namaLengkap += 1
+16:18:17.588 "hakim meliala1"
+16:18:28.338 typeof 1
+16:18:28.350 "number"
+16:18:36.241 typeof namaLengkap
+16:18:36.255 "string"

@@ -1,0 +1,28 @@
+14:39:09.218 let playlist = ['monkey', 'tyrex', 'car']
+14:39:09.236 undefined
+14:39:15.083 playlist
+14:39:15.097
+Array(3) [ "monkey", "tyrex", "car" ]
+
+14:39:37.893 playlist[1]
+14:39:37.912 "tyrex"
+14:39:40.906 playlist[2]
+14:39:40.920 "car"
+14:40:03.468 typeof playlist
+14:40:03.485 "object"
+14:40:27.957 let favSong
+14:40:27.975 undefined
+14:40:32.780 favSong
+14:40:32.799 undefined
+14:40:50.278 let favSong = [];
+14:40:50.300 Uncaught SyntaxError: redeclaration of let favSong
+    <anonymous> debugger eval code:1
+debugger eval code:1:1
+14:41:01.765 favSong = [];
+14:41:01.783
+Array []
+
+14:41:31.967 [].length
+14:41:31.985 0
+14:41:37.998 playlist.length
+14:41:38.012 3

@@ -1,0 +1,21 @@
+17:02:57.620 true
+17:02:57.631 true
+17:03:00.030 false
+17:03:00.046 false
+17:03:02.862 null
+17:03:02.875 null
+17:03:09.036 undefined
+17:03:09.045 undefined
+17:03:16.076 let wadah;
+17:03:16.085 undefined
+17:03:30.364 wadah = null
+17:03:30.378 null
+17:03:38.206 typeof wadah
+17:03:38.219 "object"
+17:03:57.968 typeof undefined
+17:03:57.977 "undefined"
+
+notes: 
+- null = nilai "kosong" yang sengaja ada
+- undefined  = variable yang dibuat tapi belum ada isinya/tidak ada sama sekali
+

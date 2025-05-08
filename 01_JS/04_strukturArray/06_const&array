@@ -1,0 +1,18 @@
+09:48:56.752 const PI = 3.14
+09:48:56.782 undefined
+09:49:01.128 PI = 123
+09:49:01.143 Uncaught TypeError: invalid assignment to const 'PI'
+    <anonymous> debugger eval code:1
+debugger eval code:1:1
+09:49:42.248 const kumpulanWarna = ['merah', 'kuning', 'hijau']
+09:49:42.263 undefined
+09:49:46.754 kumpulanWarna
+09:49:46.769
+Array(3) [ "merah", "kuning", "hijau" ]
+
+09:50:11.139 kumpulanWarna.push('biru')
+09:50:11.153 4
+09:50:15.484 kumpulanWarna
+09:50:15.500
+Array(4) [ "merah", "kuning", "hijau", "biru" ]
+

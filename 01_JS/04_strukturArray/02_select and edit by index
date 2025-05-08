@@ -1,0 +1,48 @@
+17:41:42.922 let warna = ['hijau', 'kuning', 'kelab', 'bu']
+17:41:42.938 undefined
+17:41:53.363 typeof warna
+17:41:53.381 "object"
+17:42:54.252 warna[2] = 'kelabu'
+17:42:54.266 "kelabu"
+17:43:29.125 warna[3] = 'merah muda'
+17:43:29.140 "merah muda"
+17:43:33.232 warna
+17:43:33.248
+Array(4) [ "hijau", "kuning", "kelabu", "merah muda" ]
+
+17:59:45.664 warna[0] = 1
+17:59:45.683 1
+17:59:49.561 warna
+17:59:49.583
+Array(4) [ 1, "kuning", "kelabu", "merah muda" ]
+
+18:00:00.513 warna[4]
+18:00:00.534 undefined
+18:00:28.800 warna[9] = 'biru'
+18:00:28.817 "biru"
+18:00:31.656 warna
+18:00:31.672
+Array(10) [ 1, "kuning", "kelabu", "merah muda", <5 empty slots>, "biru" ]
+
+18:01:38.019 warna[4]
+18:01:38.039 undefined
+18:01:41.019 warna[9]
+18:01:41.036 "biru"
+18:01:59.875 warna[4] = 'hijau'
+18:01:59.896 "hijau"
+18:02:01.356 warma
+18:02:01.374 Uncaught ReferenceError: warma is not defined
+    <anonymous> debugger eval code:1
+debugger eval code:1:1
+18:02:07.467 warna
+18:02:07.485
+Array(10) [ 1, "kuning", "kelabu", "merah muda", "hijau", <4 empty slots>, "biru" ]
+
+18:02:57.749 warna[0] = 'hijau'
+18:02:57.768 "hijau"
+18:03:06.085 warna[4] = 1
+18:03:06.105 1
+18:03:08.437 warna
+18:03:08.451
+Array(10) [ "hijau", "kuning", "kelabu", "merah muda", 1, <4 empty slots>, "biru" ]
+

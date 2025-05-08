@@ -1,0 +1,71 @@
+10:33:22.909 const orang = {
+    nama: 'aim',
+    tanggal: 16,
+    alamat: 'Cirebon'
+}
+10:33:22.929 undefined
+10:33:29.454 orang
+10:33:29.469
+Object { nama: "aim", tanggal: 16, alamat: "Cirebon" }
+
+10:37:47.638 orang[nama]
+10:37:47.651 Uncaught ReferenceError: nama is not defined
+    <anonymous> debugger eval code:1
+debugger eval code:1:1
+
+// todo: cara memanggil object
+10:37:56.749 orang["nama"]
+10:37:56.764 "aim"
+10:38:10.990 orang["tanggal"]
+10:38:11.004 16
+10:38:19.054 orang["alamat"]
+10:38:19.069 "Cirebon"
+10:38:27.005 barang
+10:38:27.019
+
+// todo: Cara memanggil object yang di rekomendasikan
+10:39:00.270 orang.nama
+10:39:00.285 "aim"
+10:39:06.513 orang.alamat
+10:39:06.531 "Cirebon"
+10:39:12.232 orang.tanggal
+10:39:12.248 16
+10:39:20.631 barang
+10:39:20.647
+
+// todo: Object yang di dalamnya ada object, array, dan lain-lain
+const barang = {
+    judul: 'Sepatu',
+    harga: 2000000,
+    isReady: true,
+    size: [38, 39, 40, 41, 42],
+    location: {
+        indonesia: 48,
+        singapore: 50
+    }
+}
+
+10:39:57.193 barang.location
+10:39:57.213
+Object { indonesia: 48, singapore: 50 }
+
+// todo: memanggil object dari property
+10:40:02.119 barang.location.indonesia
+10:40:02.138 48
+10:40:07.273 barang.location.singapore
+10:40:07.292 50
+10:40:13.296 barang.size
+10:40:13.315
+Array(5) [ 38, 39, 40, 41, 42 ]
+
+// todo: memanggil array dari property
+10:40:21.963 barang.size[0]
+10:40:21.987 38
+10:40:24.419 barang.size[1]
+10:40:24.434 39
+10:40:26.689 barang.size[2]
+10:40:26.706 40
+
+// todo: memanggil object dengan string bisa di otak-atik dengan operator + tapi harus dengan cara string
+10:40:51.938 barang['is' + 'Ready']
+10:40:51.954 true

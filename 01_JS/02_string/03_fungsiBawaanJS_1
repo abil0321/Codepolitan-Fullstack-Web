@@ -1,0 +1,18 @@
+16:30:34.882 let greeting = 'hello world!'
+16:30:34.893 undefined
+16:30:58.010 greeting.toLowerCase()
+16:30:58.019 "hello world!"
+16:31:15.406 greeting.toUpperCase()
+16:31:15.422 "HELLO WORLD!"
+16:31:24.389 greeting
+16:31:24.403 "hello world!"
+16:32:05.901 'HELLO WORLD!'.toLocaleLowerCase()
+16:32:05.910 "hello world!"
+16:33:00.186 'LeAve mE AlOnE'.toLocaleLowerCase()
+16:33:00.205 "leave me alone"
+16:33:12.697 'LeAve mE AlOnE'.toUpperCase()
+16:33:12.709 "LEAVE ME ALONE"
+16:34:04.361 '  hello world'.trim()
+16:34:04.373 "hello world"
+16:34:14.305 '  hello world'.trim().toUpperCase()
+16:34:14.318 "HELLO WORLD"
