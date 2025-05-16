@@ -1,5 +1,5 @@
 //? Request menggunakan Promise  ----------------------------------
-//! menggunakan Promise masih memungkinkan/bisa memunculkan Callback Hell dalam kode program !=====================================!
+// TODO: membuat fungsi callback dengan promise didalamnya =======================
 const requestPromise = (url) => {
   return new Promise((resolve, reject) => {
     const delay = Math.floor(Math.random() * 4500) + 500;
@@ -12,6 +12,7 @@ const requestPromise = (url) => {
     }, delay);
   });
 };
+//! menggunakan Promise masih memungkinkan/bisa memunculkan Callback Hell dalam kode program !=====================================!
 
 // todo: Request menggunakan Promise - Dengan cara yang salah ================================
 // ! Contoh kejadian Callback Hell pada kode program dengan Promise !=====================================!

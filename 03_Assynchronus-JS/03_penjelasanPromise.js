@@ -1,19 +1,19 @@
 //? Bagaimana cara membuat Promise - Penjelasan tentang Promise ----------------------------
-// todo: 1. membuat promise
+// todo: 1. membuat promise ======================
 const contohPromise = () => {
-  return new Promise((resolve, reject) => {
-    //* jika berhasil maka kita akan jalankan resolve ============
+  return new Promise((resolve, reject) => { //* ini promise nya !
+    //* jika berhasil maka kita akan jalankan resolve ----------------
     resolve('berhasil');
     // resolve(() => {
     //   console.log("berhasil");
-    //   "berhasil"; //* jika ingin melakukan return
+    //   "berhasil"; //* jika ingin melakukan dengan callback function
     // });
 
     //! jika gagal maka kita akan jalankan reject ============
     reject('gagal');
     // reject(() => {
     //   console.log("gagal");
-    //   "gagal"; //* return
+    //   "gagal"; //* return, jika ingin melakukan dengan callback function
     // });
   });
 };
@@ -21,12 +21,12 @@ const contohPromise = () => {
 const req = contohPromise();
 console.log(req);
 
-// todo: 2. membuat promise
+// todo: 2. membuat promise ====================
 const delayedColorChange = (color, delay) =>{
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       document.body.style.backgroundColor = color;
-      resolve();
+      resolve(); //* selesai di sini dan akan dijalankan dengan delay-nya
     }, delay)
   })
 }

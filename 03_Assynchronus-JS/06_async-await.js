@@ -1,6 +1,6 @@
 //? Apa Bedanya Promise dan async? ---------------------
 //* Promise:  Untuk membuat janji baru (misalnya, memulai proses asinkron seperti setTimeout, fetch, dll). Tetap gunakan new Promise  untuk membuat janji dari awal 
-//* async:  Hanya untuk menunggu janji selesai dengan await (tidak bisa membuat janji dari awal). Jadi klo janjinya tidak selesai-selesai dia tidak akan bergerak. Gunakan async jika kamu menunggu janji dari fungsi lain , bukan membuat janji dari awal.
+//* async:  Hanya untuk menunggu janji selesai dengan await (tidak bisa membuat janji dari awal). Jadi klo janjinya tidak selesai-selesai dia tidak akan bergerak. Gunakan async jika kamu menunggu janji dari fungsi lain, bukan membuat janji dari awal.
 
 //? Bagaimana cara mengelola kondisi error dengan Async Await --------------------------
 // todo: promise function ==============
@@ -19,7 +19,8 @@ const requestPromise = (url) => {
 };
 
 // todo: async await dengan error handling ===============
-//* dalam error handling async await harus menggunakan try catch karena akan mengakibatkan blocker. Menggunakan await tidak bisa langsung saja mengeksekusi perintah selanjutnya/perintah lain seperti reject.
+//* dalam error handling async await harus menggunakan try catch karena akan mengakibatkan blocker. Menggunakan await tidak bisa langsung saja mengeksekusi perintah selanjutnya/perintah lain seperti reject. 
+//* Jika tidak menggunakan try catch, maka error yang terjadi di dalam async function tidak akan terdeteksi dan tidak bisa di tangkap oleh promise.
 async function requestHandler() {
   try {
     let result = await requestPromise("movie.com");
